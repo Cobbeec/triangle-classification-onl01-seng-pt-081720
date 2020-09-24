@@ -9,7 +9,7 @@ class Triangle
  end 
  
  def kind
-   if (@base <= 1) || (@length <= 1) || (@height <=1)
+   if (@base <= 0) || (@length <= 0) || (@height <=0)
      raise TriangleError
    elsif
    (@base + @length <= @height) || (@base + @height <= @length) || (@length + @height <= @base) 
