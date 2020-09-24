@@ -14,7 +14,7 @@ class Triangle
    elsif
    (@base + @length <= @height) || (@base + @height <= @length) || (@length + @height <= @base) 
    raise TriangleError
-  elsif @base ==@length = @height
+  elsif @base ==@length == @height
     then 
     :equilateral
     elsif (@base == @length) || (@base == @height) || (@length == @height) 
